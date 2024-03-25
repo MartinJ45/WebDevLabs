@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Martin Jimenez">
+    <meta name="keywords" content="Carnegie Mellon University">
+    <meta name="description" content="Martin Jimenez professional website">
+    <title>Martin Jimenez</title>
+</head>
+<body onload=" addYear()">
+    <header>
+        <h1 id="webname">Martin Jimenez</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active" >Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img class="classA" src="../static/photo_of_me.png" alt="Martin Jimenez profile image" width="350px">
+        <div class="classA">
+            <span id="shortIntro">Lorem ipsum dolor sit amet, so on and so forth….</span>
+            <span id="readMore"> read more ...</span>
+            <span id="longIntro">Lorem ipsum dolor sit amet, so on and so forth…</span>
+            <span id="readLess"> read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Martin Jimenez &copy</p>
+    </footer>
+</body>
+</html>
